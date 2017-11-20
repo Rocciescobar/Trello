@@ -1,0 +1,229 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #0079bf;
+}
+
+/*Header*/
+header {
+  background-color: #026aa7; 
+  height:  42px;
+  text-align: center;
+}
+
+header div {
+  display: inline-block;
+  margin-top: 5px;
+  position: absolute;
+}
+
+header div a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.boards-menu {
+  background-color: #4d95bf;
+  border-radius: 4px;
+  left: 7px;
+  padding: 6px 8px;  
+}
+
+.boards-menu i {
+  margin-right: 7px;
+}
+
+.search {
+  background-color: #4d95bf;
+  border-radius: 4px;
+  left: 112px;
+  padding: 6px;
+}
+
+.search input {
+  background-color: #4d95bf;
+  border: none;
+}
+
+.logo a:first-child {
+  color: #7fb3d1;
+}
+
+.logo a:last-child {
+  color: #7fb3d1;
+  font-family: 'Lobster', cursive;
+  font-size: 1.3em;
+}
+
+.icons {
+  right: 7px;
+}
+
+.icons ul li {  
+  background-color: #4d95bf;
+  border-radius: 4px;
+  display: inline-block;
+  list-style: none;
+  padding: 6px 8px;
+  margin: 0 1.5px;
+}
+
+.icons ul li:last-child {
+  border-radius: 50%;
+  padding: 6px;
+}
+
+/*Section title*/
+.title {
+  margin: 15px;
+  position: relative;
+  text-align: center;
+}
+
+.title a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.title div {
+  position: absolute;
+}
+
+.title div:first-child {
+  font-size: 1.1em;
+}
+
+.title div:nth-child(2) {
+  left: 231px;
+}
+
+.title div:nth-child(3) {
+  left: 280px;
+}
+
+.title span {
+  margin-left: 5px;
+}
+
+.title div:last-child {
+  right: 7px;
+}
+
+/*Section boards*/
+.area-boards {
+  padding-top: 35px;
+  margin-left: 7px;
+}
+
+.add-list {
+  background-color: #006aa8;
+  border: none;
+  border-radius: 4px;  
+  height: 40px;
+  width: 270px;
+}
+
+.add-list p {
+  color: #7fb3d1;
+  padding: 9px 0 0 10px;
+}
+
+/*Lists*/
+.style-listBox {
+  background-color: #d6dadc;
+  border-radius: 4px;
+  height: 85px;
+  width: 270px;
+}
+
+.input-features {  
+  background-color:  #bfc5c8;
+  border: 1px solid  #adb5b8;
+  border-radius: 4px;  
+  font-size: .95em;
+  height: 35px;
+  margin: 5px 0 0 5px;
+  width: 260px;
+}
+
+.style-saveButton {
+  background-color: #5aac44;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: .95em;
+  font-weight: bold;
+  height: 35px;
+  margin: 5px 0 0 5px;
+  width: 90px;
+}
+
+.div-features {
+  background-color: #d6dadc;
+  border-radius: 4px;
+  max-height: auto;
+  width: 270px;
+}
+
+.p-firstchild {  
+  font-size: .95em;
+  font-weight: bold;
+  padding: 10px;
+  width: 100%;
+}
+
+.p-secondchild {
+  border-radius: 4px;
+  cursor: default;
+  font-size: .95em;
+  padding: 10px;
+  text-decoration: underline;  
+  width: 100%;
+}
+
+.p-secondchild:hover {
+  background-color: #adb5b8;
+}
+
+.style-taskBox {
+  background-color: #d6dadc;
+  border-radius: 4px;
+  height: 120px;
+  width: 270px;
+}
+
+.textarea-features {  
+  background-color:  #fff;
+  border: none;
+  border-radius: 4px;  
+  font-size: .95em;
+  height: 70px;
+  margin-left: 5px;
+  width: 260px;
+}
+
+.style-addButton {
+  background-color: #5aac44;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: .95em;
+  font-weight: bold;
+  height: 35px;
+  margin: 5px 0 0 5px;
+  width: 90px;
+}
+
+.style-taskBoard {
+  background-color: #edeff0;
+  border-radius: 4px;
+  font-size: .95em;
+  padding: 10px;
+  margin: 5px;
+  width: 260px;
+}
