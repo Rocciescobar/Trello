@@ -22,7 +22,7 @@ window.addEventListener('load', function() {
     listContainer.appendChild(listBox);
 
     addList.style.display = 'none';
-    listContainer.style.display = 'inline-block';
+    listContainer.style.display = 'block';
     
     // Creando nuevo cuadro
     saveButton.addEventListener('click', function() {      
@@ -43,7 +43,7 @@ window.addEventListener('load', function() {
 
       listBox.style.display = 'none';
       newBox.style.display = 'block';     
-      
+
       // Creando formulario: "Añadir una tarea"
       addTask.addEventListener('click', function() {
         var taskBox = document.createElement('form');
